@@ -1,10 +1,10 @@
 /*global require console process setTimeout*/
 ( // Module boilerplate to support node.js and AMD.
-  (typeof module !== "undefined" && function (m) { module.exports = m(require('events')); }) ||
+  (typeof module !== "undefined" && function (m) { module.exports = m(require('eventemitter2')); }) ||
   (typeof define === "function" && function (m) { define(["events"], m); })
 )(function (events) {
 "use strict";
-var EventEmitter = events.EventEmitter;
+var EventEmitter = events.EventEmitter2;
 
 var exports = {};
 
