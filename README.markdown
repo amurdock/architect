@@ -90,7 +90,7 @@ This is a sync function that loads a config file and parses all the plugins into
 
 ## Class: Architect
 
-Inherits from `EventEmitter`.
+Inherits from `EventEmitter2`.
 
 The `createApp` function returns an instance of `Architect`.
 
